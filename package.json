@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tilttype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tilt encode/decode helpers for type payloads in pipelines.",
+  "bin": {
+    "tilttype": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tilttype.git"
+  },
+  "homepage": "https://theworker02.github.io/tilttype/",
+  "keywords": [
+    "tilt",
+    "type",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
